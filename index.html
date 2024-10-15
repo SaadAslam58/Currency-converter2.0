@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Try it our!</h1>
+      <h1>Currency Converter</h1>
+      <form id="converter-form">
+        <label for="from">From Currency <i class="fa-solid fa-arrow-right"></i></label>
+        <select name="from" id="from">
+            <option value="USD">USD</option>
+            <option value="PKR">PKR</option>
+            <option value="INR">INR</option>
+            <option value="EUR">EUR</option>
+            <option value="GDP">GDP</option>
+            <option value="JPY">JPY</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="NZD">NZD</option>
+            <option value="SGD">SGD</option>
+            <option value="HKD">HKD</option>
+            <option value="MYR">MYR</option>
+            <option value="THB">THB</option>
+            <option value="ZAR">ZAR</option>
+            <option value="BRL">BRL</option>
+            <option value="CNY">CNY</option>
+            <option value="KRW">KRW</option>
+            <option value="VND">VND</option>
+            <option value="VND">VND</option>
+        </select>
+
+        <label for="to">To Currency <i class="fa-solid fa-arrow-left"></i></label>
+        <select name="to" id="to">
+            <option value="USD">USD</option>
+            <option value="PKR">PKR</option>
+            <option value="INR">INR</option>
+            <option value="EUR">EUR</option>
+            <option value="GDP">GDP</option>
+            <option value="JPY">JPY</option>
+            <option value="AUD">AUD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="NZD">NZD</option>
+            <option value="SGD">SGD</option>
+            <option value="HKD">HKD</option>
+            <option value="MYR">MYR</option>
+            <option value="THB">THB</option>
+            <option value="ZAR">ZAR</option>
+            <option value="BRL">BRL</option>
+            <option value="CNY">CNY</option>
+            <option value="KRW">KRW</option>
+            <option value="VND">VND</option>
+            <option value="VND">VND</option>
+        </select>
+
+        <label for="amount">Amount <i class="fa-solid fa-money-bill-wave"></i></label>
+        <input type="number" id="amount" name="amount" required>
+        <button type="submit">Convert</button>
+      </form>
+      <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
